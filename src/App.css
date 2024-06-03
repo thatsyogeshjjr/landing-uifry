@@ -1,0 +1,3 @@
+.selected {
+  @apply text-[#FF5555] font-bold;
+}
