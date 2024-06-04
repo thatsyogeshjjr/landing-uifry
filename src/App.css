@@ -6,3 +6,18 @@
   opacity: 100%;
   height: 4rem;
 }
+
+.faq-cards * {
+  color: #000;
+}
+
+.faq-cards .r {
+  background-color: #ff5555;
+}
+.faq-cards .r h2 {
+  color: #fff;
+}
+
+.faq-cards .r p {
+  color: #fff;
+}
