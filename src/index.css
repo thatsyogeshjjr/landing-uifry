@@ -9,3 +9,6 @@
 * {
   font-family: "Clash Display";
 }
+html {
+  background-image: url("./assets/bg.png");
+}

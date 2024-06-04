@@ -12,11 +12,19 @@ export var Navbar = () => {
           <img src={Logo} alt="" className="w-max h-max" />
           <ul className="flex flex-row gap-4 text-lg">
             <li>
-              <div className="selected">Home</div>
+              <div className="selected">
+                <a href="#">Home</a>
+              </div>
             </li>
-            <li>About Us</li>
-            <li>Pricing</li>
-            <li>Features</li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">Pricing</a>
+            </li>
+            <li>
+              <a href="#">Features</a>
+            </li>
           </ul>
         </div>
         <button className="bg-black text-slate-50 rounded-md p-4 mr-5 px-10">
